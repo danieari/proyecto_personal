@@ -1,0 +1,97 @@
+/* fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width:200px;
+}
+
+/* menu */
+#menu{
+    background-color:rgb(241, 197, 219) !important;
+}
+
+#menu a,button{
+    font-weight: bold;
+    font-size: 16px;
+}
+/* noticias  */
+#noticias{
+    background-color:#000;
+}
+
+#noticias .titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.buy{
+    margin-left: 35%;
+}
+
+/* servicios */
+.services{
+    width:120px;
+    height: 120px;
+
+}
+
+/* footer */
+#page-footer .ftcontainer{
+    display: flex;
+    padding: 70px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: #000;
+
+}
+
+#page-footer a{
+    color: #fff;
+}
+
+.footer__cta-ftcontainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;    
+
+}
+.ftrow{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.footer_cta-ftcontainer .cta_txt{
+    font-size: 36px;
+    max-width: 50%;
+    padding: 0;
+}
+
+.footer_cta-ftcontainer .cta_btn {
+    margin-top:0;
+    
+}
+
+.footer__menu figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+
+}
