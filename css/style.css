@@ -6,12 +6,13 @@ body {
 }
 
 .logo{
-    width:200px;
+    width: 98px;
+    
 }
 
 /* menu */
 #menu{
-    background-color:rgb(241, 197, 219) !important;
+    background-color:rgb(253, 246, 250) !important;
 }
 
 #menu a,button{
