@@ -20,7 +20,7 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
-/* noticias  */
+/* noticias y nosotros */
 #noticias{
     background-color:#000;
 }
@@ -55,7 +55,7 @@ body {
     align-content: center;
     align-items: flex-start;
     flex-wrap: nowrap;
-    background-color: rgb(227, 193, 193);
+    background-color: rgb(248, 186, 209);
 
 }
 
@@ -140,8 +140,8 @@ body {
 
 .footer_cta-ftcontainer .cta_btn{
     padding: 26px 60px;
-    border: 2px solid rgba(3, 3, 3, 0.705);
-    color: rgb(20, 19, 19);
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    color: #fff;
     background-color: transparent;
     font-size: 16px;
     text-transform: uppercase;
@@ -154,8 +154,8 @@ body {
 }
 
 .footer_cta-ftcontainer .cta_btn:hover{
-    color: rgb(255, 255, 255);
-    border-color: rgb(213, 107, 235);
+    color: #fff;
+    border-color: rgb(159, 40, 16);
     background-color: rgb(70, 9, 9);
 }
 
@@ -229,7 +229,7 @@ body {
 }
 
 footer{
-    background-color: rgb(227, 193, 193);
+    background-color: rgb(248, 186, 209);
     min-height: 100px;
 }
 
@@ -250,4 +250,12 @@ footer p{
 .footer_logo{
     width: 100%;
     
+}
+
+/* /*página nosotros */
+
+ #nosotros .titulo{
+    width: 100%;
+    color: rgb(7, 7, 7);
+    text-align: center;
 }
