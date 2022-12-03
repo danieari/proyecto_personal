@@ -61,86 +61,96 @@
                     
                     
                 </ul>
-                <form class="d-flex">
+               
                     <input class="form-control me-2" type="email" placeholder="Suscripción" aria-label="Suscripcion">
-                    <button class="btn btn-outline-dark" type="submit">Suscripción</button>
-                </form>
+                   
             </div>
         </div>
     </nav>
-    
-    <!-- novedades o noticias -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
-        <h1 class="p-3 fs-2 titulo">Novedades</h1>      
-        <div class="col"> 
-            <div class="card">
-                <img src="/img/base 1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Base</h5>
-                    
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/Maquillaje-slider1.jpg" class="d-block w-100" alt="T1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slider4.jpg" class="d-block w-100" alt="T2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/maquillaje-slider3.jpg" class="d-block w-100" alt="T3">
             </div>
         </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="/img/base2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Base (cobertura media)</h5>
-                
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="/img/base3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Base (cobertura alta)</h5>
-                    
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
-            </div>
-        </div>
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
-              
-        <div class="col"> 
-            <div class="card">
-                <img src="/img/base 4.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Bb Cream</h5>
-                    
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
+    <!-- novedades o noticias -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="contacto">
+        <h1 class="p-3 fs-2 titulo">Contacto</h1>      
+        <form class="row mx-auto g-4" action="mailto:hurtadodani03@gmail.com" method="post">
+            <div class="col-md-6">
+              <label for="inputNombre" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="inputNombre" placeholder="nombres">
             </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="/img/base 5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Base (pigmentación)</h5>
-                   
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
+            <div class="col-md-6">
+              <label for="inputApellido" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="inputApellido">
             </div>
-        </div>
 
-        <div class="col">
-            <div class="card">
-                <img src="/img/base 6.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Base (gama alta)</h5>
-                    
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="email@example.com">
+              </div>
+
+              <div class="col-md-6">
+                <label for="inputAsunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="inputAsunto">
+              </div>
+
+            <div class="col-12">
+              <label for="inputAsunto" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
-        </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Dirección 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Departamento</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Caldas">Caldas</option>
+                <option value="Meta">Meta</option>
+                <option value="Risaralda">Risaralda</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="submit" class="btn btn-primary">Cancelar</button>
+            </div>
+          </form>
 
     </div>
 

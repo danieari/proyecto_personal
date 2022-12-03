@@ -24,6 +24,15 @@ body {
 #noticias{
     background-color:#000;
 }
+#noticias img{
+    width: 350px;
+    height: 350px;
+}
+
+#noticias img{
+    width: 350px;
+    height: 350px;
+}
 
 #noticias .titulo{
     width: 100%;
@@ -255,6 +264,17 @@ footer p{
  /*página nosotros */
 
  #nosotros .titulo{
+    width: 100%;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+/* pag de contacto */
+#contacto{
+    background-color: #fff;
+}  
+
+#contacto .titulo{
     width: 100%;
     color: rgb(7, 7, 7);
     text-align: center;
